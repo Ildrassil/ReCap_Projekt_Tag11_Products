@@ -37,7 +37,6 @@ public class ProductRepo {
     public boolean checkIfStockIsAvailable(Product product, int quantity) {
 
 
-
         if (product.quantityProduct() > quantity) {
             return true;
         }
@@ -53,9 +52,44 @@ public class ProductRepo {
         return productList;
     }
 
+    public void decreaseStock(List<Product> orderList) {
+        List<Product> updatedProductList = new ArrayList<>(productList);
+
+        for (Product orderProduct : orderList) {
+            for (int i = 0; i < updatedProductList.size(); i++) {
+                Product product = updatedProductList.get(i);
+                if (product.productName().equals(orderProduct.productName())) {
+                    int updatedQuantity = product.quantityProduct() - orderProduct.quantityProduct();
+                    Product updatedProduct = new Product(product.productName(), product.price(), product.productId(), updatedQuantity);
+                    updatedProductList.set(i, updatedProduct);
+                }
+            }
+        }
+
+        productList = updatedProductList;
+
+        System.out.println("Incoming order has been updated to Stock");
+        System.out.println("Stock now: " + productList);
+    }
+
+    public void increaseStock(String productName, int quantity) {
+        List<Product> updatedProductList = new ArrayList<>(productList);
+
+        for (int i = 0; i < updatedProductList.size(); i++) {
+            Product product = updatedProductList.get(i);
+            if (product.productName().equals(productName)) {
+                int updatedQuantity = product.quantityProduct() + quantity;
+                Product updatedProduct = new Product(product.productName(), product.price(), product.productId(), updatedQuantity);
+                updatedProductList.set(i, updatedProduct);
+
+            }
+
+            productList = updatedProductList;
+
+            System.out.println("Incoming order has been updated to Stock");
+            System.out.println("Stock of " + productName + " now: " + productList);
+        }
+
+
+    }
 }
-
-
-
-
-

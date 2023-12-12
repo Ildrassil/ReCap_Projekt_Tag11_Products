@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39e39565-1c4b-45ea-af33-1a5a34f92823" name="Changes" comment="ServiceSystem project">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ShopServiceTest.java" afterDir="false" />
+    <list default="true" id="39e39565-1c4b-45ea-af33-1a5a34f92823" name="Changes" comment="ServiceSystem project with Terminal App">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a04888a0fcc101ad2a4f8c7f1897d8719732a8a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a04888a0fcc101ad2a4f8c7f1897d8719732a8a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OrderListRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OrderListRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OrderMapRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OrderMapRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OrderRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OrderRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ShopService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +116,7 @@
       <workItem from="1702313845663" duration="2253000" />
       <workItem from="1702362484218" duration="6243000" />
       <workItem from="1702371101115" duration="10727000" />
-      <workItem from="1702381869872" duration="7796000" />
+      <workItem from="1702381869872" duration="11720000" />
     </task>
     <task id="LOCAL-00001" summary="ServiceSystem project">
       <option name="closed" value="true" />
@@ -162,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702390603914</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ServiceSystem project with Terminal App">
+      <option name="closed" value="true" />
+      <created>1702397668131</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702397668131</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +174,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ServiceSystem project" />
-    <option name="LAST_COMMIT_MESSAGE" value="ServiceSystem project" />
+    <MESSAGE value="ServiceSystem project with Terminal App" />
+    <option name="LAST_COMMIT_MESSAGE" value="ServiceSystem project with Terminal App" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

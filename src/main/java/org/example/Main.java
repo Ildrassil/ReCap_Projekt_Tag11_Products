@@ -26,6 +26,9 @@ public class Main {
         int id = randomID.nextInt(1000);
         shopService.createOrder(productNames,userName,adress,id,date);
 
+        sc.close();
+
+
 
 
 
