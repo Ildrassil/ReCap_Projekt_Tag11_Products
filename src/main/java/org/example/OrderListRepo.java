@@ -8,6 +8,7 @@ public class OrderListRepo implements OrderRepo{
         public List<Order> orders;
 
         public OrderListRepo() {
+
             orders = new ArrayList<>();
         }
 
@@ -22,6 +23,7 @@ public class OrderListRepo implements OrderRepo{
 
 
         public  void removeOrder(Order order) {
+
             orders.removeIf(order1 -> order1.idOrder() == order.idOrder());
         }
 

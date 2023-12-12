@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
     ShopService shopService = new ShopService();
     Map<String, Integer> productNames = new HashMap<>();
-    productNames.put("Airpods", 2);
+    productNames.put("Airpods", 30);
     productNames.put("Macbook", 5);
     productNames.put("Iphone", 4);
     productNames.put("Bal",6);
