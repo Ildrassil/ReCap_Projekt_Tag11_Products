@@ -1,27 +1,32 @@
 package org.example;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
 public class ShopService {
+    OrderRepo orderRepo = new OrderListRepo();
+    ProductRepo productRepo = new ProductRepo();
 
-public void createOrder(Order order){
-    OrderListRepo orderList = new OrderListRepo();
-    if(order.productList().stream().allMatch(product -> product.quantityProduct() > 0)){
+    public void createOrder(Map<String, Integer> einkaufsZettel, String nameOfOrderer, String adress, int idOrder, String dateOfOrder) {
+       List<Product> productList = new ArrayList<>();
+       List <String> productNamesInStock = einkaufsZettel.keySet().stream().filter(product1 ->  productRepo.getSingleProduct(product1).size() > 0).toList();
 
-            orderList.addOrder(order);
+        for (int i = 0; i < productNamesInStock.size(); i++) {
+           productList.addAll(productRepo.getSingleProduct(productNamesInStock.get(i)));
 
         }
-        else{
-            System.out.println("Out of Stock");
-        }
+        List<Product> productListWithQuantity = productList.stream().map(product -> new Product(product.productName(),product.price(),product.productId(), einkaufsZettel.get(product.productName()))).toList();
+        Order order = new Order(nameOfOrderer,adress,idOrder,productListWithQuantity,dateOfOrder);
+        orderRepo.addOrder(order);
 
+        System.out.println(orderRepo);
+
+
+    }
+    public void removeOrder(){
 
     }
 
 
-
-
-
-
-
-
-}
 }

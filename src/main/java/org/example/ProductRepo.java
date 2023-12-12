@@ -10,8 +10,17 @@ public class ProductRepo {
 
     public List<Product> productList;
 
+
     public ProductRepo() {
+
         productList = new ArrayList<>();
+        Product airpods = new Product("Airpods", 200, 1, 10);
+        Product iphone = new Product("Iphone", 1300, 2, 20);
+        Product macbook = new Product("Macbook", 2800, 3, 20);
+
+        productList.add(airpods);
+        productList.add(iphone);
+        productList.add(macbook);
     }
 
 
@@ -23,16 +32,18 @@ public class ProductRepo {
     public void removeProduct(Product product) {
         productList.remove(product);
     }
+
     public boolean checkIfStockIsAvailable(Product product, int quantity) {
 
-        if(product.quantityProduct()>quantity) {
+        if (product.quantityProduct() > quantity) {
             return true;
         }
         return false;
     }
 
-    public List<Product> getSingleProduct(int id) {
-        return productList.stream().filter(product -> product.productId() == id).toList();
+    public List<Product> getSingleProduct(String productName) {
+
+        return productList.stream().filter(product -> product.productName().equals(productName)).toList();
     }
 
     public List<Product> getAllProducts() {
@@ -40,6 +51,7 @@ public class ProductRepo {
     }
 
 }
+
 
 
 

@@ -3,7 +3,7 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 
-public class OrderListRepo {
+public class OrderListRepo implements OrderRepo{
 
         public List<Order> orders;
 
@@ -21,7 +21,7 @@ public class OrderListRepo {
 
 
 
-        public void removeOrder(Order order) {
+        public  void removeOrder(Order order) {
             orders.removeIf(order1 -> order1.idOrder() == order.idOrder());
         }
 
@@ -30,8 +30,8 @@ public class OrderListRepo {
 
         }
 
-        public List<Order> getOneOrder(int id) {
-            return orders.stream().filter(order -> order.idOrder() == id).toList();
+        public Order getOneOrder(int id) {
+            return orders.stream().filter(order -> order.idOrder() == id).findFirst().orElse(null);
         }
 
         public List<Order> getOrders() {
@@ -59,6 +59,10 @@ public class OrderListRepo {
 
         }
 
-
-
+    @Override
+    public String toString() {
+        return "OrderListRepo{" +
+                "orders=" + orders +
+                '}';
+    }
 }

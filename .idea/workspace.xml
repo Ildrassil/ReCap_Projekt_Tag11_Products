@@ -4,30 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39e39565-1c4b-45ea-af33-1a5a34f92823" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a04888a0fcc101ad2a4f8c7f1897d8719732a8a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/385b87b69a141dbc6b025f6a3c869e51a8902aec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/a/0a04888a0fcc101ad2a4f8c7f1897d8719732a8a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/8/385b87b69a141dbc6b025f6a3c869e51a8902aec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OrderListRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ShopService.java" afterDir="false" />
+    <list default="true" id="39e39565-1c4b-45ea-af33-1a5a34f92823" name="Changes" comment="ServiceSystem project">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a04888a0fcc101ad2a4f8c7f1897d8719732a8a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a04888a0fcc101ad2a4f8c7f1897d8719732a8a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0ba1b9c7a4878802f938e331cc2d8a042087ec6b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OrderListRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OrderListRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OrderMapRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OrderMapRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OrderRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OrderRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ShopService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,31 +33,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2ZOiuhWw7AUlf30bZqHfWk91uYG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -98,11 +87,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702299751989</updated>
-      <workItem from="1702299753013" duration="11410000" />
+      <workItem from="1702299753013" duration="13913000" />
+      <workItem from="1702313845663" duration="2253000" />
+      <workItem from="1702362484218" duration="6243000" />
+      <workItem from="1702371101115" duration="7880000" />
     </task>
+    <task id="LOCAL-00001" summary="ServiceSystem project">
+      <option name="closed" value="true" />
+      <created>1702312454491</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702312454491</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ServiceSystem project">
+      <option name="closed" value="true" />
+      <created>1702313787456</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702313787456</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ServiceSystem project" />
+    <option name="LAST_COMMIT_MESSAGE" value="ServiceSystem project" />
   </component>
 </project>
