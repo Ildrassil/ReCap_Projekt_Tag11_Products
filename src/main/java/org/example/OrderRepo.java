@@ -1,9 +1,6 @@
 package org.example;
 
 import java.util.List;
-import java.util.Map;
-import java.util.HashMap;
-import java.util.stream.Collectors;
 
 public interface OrderRepo {
 
@@ -14,6 +11,8 @@ public interface OrderRepo {
     List<Order> getOrders();
     List<Order> getOrdersByDate(String date);
     int sumOfAllOrders();
-    void sumOfOrder(int id);
+    int sumOfOrder(int id);
+
+
 
 }

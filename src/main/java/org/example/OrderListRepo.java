@@ -55,10 +55,11 @@ public class OrderListRepo implements OrderRepo{
             int sumOfAllOrders = orders.stream().mapToInt(order -> order.productList().stream().mapToInt(product -> product.price()).sum()).sum();
             return sumOfAllOrders;
         }
-        public void sumOfOrder(int id) {
+        public int sumOfOrder(int id) {
             int sumOfAllOrders = orders.stream().filter(order -> order.idOrder() == id).mapToInt(order -> order.productList().stream().mapToInt(product -> product.price()).sum()).sum();
             System.out.println(sumOfAllOrders);
 
+            return sumOfAllOrders;
         }
 
     @Override
