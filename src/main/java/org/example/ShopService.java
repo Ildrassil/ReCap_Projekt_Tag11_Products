@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.logging.Logger;
 
 public class ShopService {
     OrderRepo orderRepo = new OrderMapRepo(new HashMap<Integer, Order> ());
@@ -34,6 +35,11 @@ public class ShopService {
     public void increaseStock(String productName, int quantity) {
         productRepo.increaseStock(productName, quantity);
     }
+
+    public Logger getLogger() {
+        return Logger.getLogger(ShopService.class.getName());
+    }
+
 
 
 
