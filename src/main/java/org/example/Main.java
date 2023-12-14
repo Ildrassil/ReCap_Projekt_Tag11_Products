@@ -7,6 +7,10 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        ProductRepo productRepo = new ProductRepo();
+        System.out.println("Welcome to our shop!");
+
+        System.out.println("You can choose between: " + productRepo.getAllProducts().stream().filter(product -> product.quantityProduct() > 0).map(Product::productName).toList());
         Scanner sc = new Scanner(System.in);
         System.out.println("Type your name: ");
         String userName = sc.nextLine();
